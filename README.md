@@ -7,3 +7,6 @@ Name - Abhishek Kumar
 The data was taken from Kaggle site :https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata  
 The TMDb (The Movie Database) is a comprehensive movie database that provides information about movies, including details like titles, ratings, release dates, revenue, genres, and much more.
 This dataset contains a collection of 5000 movies from the TMDB database.
+## Data Preprocessing:
+![image](https://github.com/user-attachments/assets/559b3e6b-5276-42b7-a735-ab4a9708e64e)
+![image](https://github.com/user-attachments/assets/bb0ae535-6e1c-45d1-a145-655f45aff621)
