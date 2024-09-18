@@ -36,5 +36,14 @@ Calculate cosine similarity between movies based on their genres, keywords, and 
  1. First, we will find the index of the given movie.
  2. Then we will fetch the cosine similarity of that movie with others movies from similarity (array of array).
  3. we will short the cosine similarity valuee in Desc order by keeping the index intact and fetch top 5 values. 
-    Movies corresponding to those values will be our output. 
+    Movies corresponding to those values will be our output.
+## RESULT:
+![image](https://github.com/user-attachments/assets/1720db82-20bc-42dd-a573-e14adf8eb5a2)
+
+### Converting our model into a website
+Used the pickle module to serialize and save essential objects like the preprocessed movie data and the similarity matrix, which are key components of the recommendation system
+![image](https://github.com/user-attachments/assets/5897a8d4-093e-40d8-a005-f075a1cf8e24)
+
+
+    
 
