@@ -43,6 +43,7 @@ Calculate cosine similarity between movies based on their genres, keywords, and 
 
 ### Converting our model into a website
 Used the pickle module to serialize and save essential objects like the preprocessed movie data and the similarity matrix, which are key components of the recommendation system
+
 ![image](https://github.com/user-attachments/assets/5897a8d4-093e-40d8-a005-f075a1cf8e24)
 
 
