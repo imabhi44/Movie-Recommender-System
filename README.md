@@ -46,7 +46,9 @@ Used the pickle module to serialize and save essential objects like the preproce
 
 ![image](https://github.com/user-attachments/assets/5897a8d4-093e-40d8-a005-f075a1cf8e24)
 
-#Final result on streamlit
+
+# Final result on streamlit
+
 ![image](https://github.com/user-attachments/assets/db4c30f2-2cac-48e3-be8c-1f057460ee59)
 
 
