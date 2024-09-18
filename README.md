@@ -19,7 +19,9 @@ Some of the Features like "Genre","Keyword","Cast","Crew" contain unnecessary ke
 - Director name from the Crew
 
 Here genre is string of list so first convert it into list of list and for that i have used ast Module of python so Initial genre-- '[{"id": 28, "name": "Action"}, {"id": 12, "name": "Adventure"}, {"id": 14, "name": "Fantasy"}, {"id": 878, "name": "Science Fiction"}]'
-
 final output-- ['Action',"Adventure","Fantasy","Science Fiction"]
-
 Same thing is applied on keyword
+# Tag Creation:
+We concatnate Overview, Genres, keywords, Cast and Crew to creat our tags. It will be a list so we have to convert it into string to get the whole paragraph so that we can apply NLP techniques
+![image](https://github.com/user-attachments/assets/6ca53e86-eb87-44fb-a776-2f2f1bfb423d)
+
