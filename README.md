@@ -25,7 +25,16 @@ Same thing is applied on keyword
 # Tag Creation:
 We concatnate Overview, Genres, keywords, Cast and Crew to creat our tags. It will be a list so we have to convert it into string to get the whole paragraph so that we can apply NLP techniques
 ![image](https://github.com/user-attachments/assets/5f5f54e5-1c6a-4b6f-8749-4a454d3cd6cc)
-# Text Preprocessing:
+### Text Preprocessing:
 - Applying Stemming  
-- Converting Tags into Vectors
+- Converting Tags into Vectors   
+### performed Cosine Similarity
+Calculate cosine similarity between movies based on their genres, keywords, and overview to recommend the most similar ones.
+![image](https://github.com/user-attachments/assets/daa9a5d0-d0c6-4217-82c3-fab608b2a20e)
+
+**Logic to find the similar movies**
+ 1. First, we will find the index of the given movie.
+ 2. Then we will fetch the cosine similarity of that movie with others movies from similarity (array of array).
+ 3. we will short the cosine similarity valuee in Desc order by keeping the index intact and fetch top 5 values. 
+    Movies corresponding to those values will be our output. 
 
