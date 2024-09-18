@@ -19,6 +19,7 @@ Some of the Features like "Genre","Keyword","Cast","Crew" contain unnecessary ke
 - Director name from the Crew
 
 Here genre is string of list so first convert it into list of list and for that i have used ast Module of python so Initial genre-- '[{"id": 28, "name": "Action"}, {"id": 12, "name": "Adventure"}, {"id": 14, "name": "Fantasy"}, {"id": 878, "name": "Science Fiction"}]'
+
 final output-- ['Action',"Adventure","Fantasy","Science Fiction"]
 Same thing is applied on keyword
 # Tag Creation:
@@ -26,6 +27,7 @@ We concatnate Overview, Genres, keywords, Cast and Crew to creat our tags. It wi
 ![image](https://github.com/user-attachments/assets/5f5f54e5-1c6a-4b6f-8749-4a454d3cd6cc)
 # Text Preprocessing:
 Applying Stemming
+
 Stemming is a text preprocessing technique in natural language processing (NLP). Specifically, it is the process of reducing inflected form of a word to one so-called “stem,” or root form. example:- stem (loving, loves, loved) = "love"
 It will reduce the problem of repetition of same words in different form
 
