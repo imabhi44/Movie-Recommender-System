@@ -23,5 +23,9 @@ final output-- ['Action',"Adventure","Fantasy","Science Fiction"]
 Same thing is applied on keyword
 # Tag Creation:
 We concatnate Overview, Genres, keywords, Cast and Crew to creat our tags. It will be a list so we have to convert it into string to get the whole paragraph so that we can apply NLP techniques
-![image](https://github.com/user-attachments/assets/6ca53e86-eb87-44fb-a776-2f2f1bfb423d)
+![image](https://github.com/user-attachments/assets/5f5f54e5-1c6a-4b6f-8749-4a454d3cd6cc)
+# Text Preprocessing:
+Applying Stemming
+Stemming is a text preprocessing technique in natural language processing (NLP). Specifically, it is the process of reducing inflected form of a word to one so-called “stem,” or root form. example:- stem (loving, loves, loved) = "love"
+It will reduce the problem of repetition of same words in different form
 
