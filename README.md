@@ -1,7 +1,6 @@
 # Movie-Recommender-System
 This project is a Movie Recommendation System that suggests similar movies based on content-based filtering, using cosine similarity to compare features of movies. The system also integrates with the TMDb API to display movie posters, enhancing user experience.
-Name - Abhishek Kumar
-- Project - Movie Recommendation System
+Name - Abhishek Kumar 
 - Skills - Content-based Filtering, Cosine Similarity, API Integration (TMDb), Machine Learning, Data Processing, Data Science, Web Deployment
 - Tools - Streamlit, Python, Pandas, Requests, Pickle, TMDb API, Jupyter notebook
 # The Dataset:
